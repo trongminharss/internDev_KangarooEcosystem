@@ -1,0 +1,14 @@
+#!/bin/sh
+set -e
+
+echo "[pre-commit] 1/4 architecture boundaries"
+npm run --silent check:arch
+
+echo "[pre-commit] 2/4 typescript"
+npx tsc --noEmit
+
+echo "[pre-commit] 3/4 tests"
+npm test
+
+echo "[pre-commit] 4/4 eslint"
+npm run --silent lint

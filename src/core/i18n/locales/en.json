@@ -1,0 +1,490 @@
+{
+  "intro": {
+    "title": "Intro Screen",
+    "text": {
+      "introText": "This is the intro text in english",
+      "login": "Login",
+      "signup": "Sign Up"
+    }
+  },
+  "auth": {
+    "phoneTitle": "Enter your phone number",
+    "enterPhone": "Enter phone number",
+    "invalidPhone": "Invalid phone number",
+    "agreePrefix": "I agree to the",
+    "termsOfUse": "Terms of Use",
+    "legalDeclaration": "Legal Declaration",
+    "privacyPolicy": "Privacy Policy",
+    "continue": "Continue",
+    "termsTitle": "Terms of Use",
+    "termsContent": "Terms of use content is being updated. This is placeholder content illustrating the terms bottom sheet layout.",
+    "agree": "Agree",
+    "otpTitle": "Enter verification code",
+    "otpSentTo": "Sent to",
+    "resendAfter": "Resend in {{seconds}}s",
+    "resend": "Resend code",
+    "otpPasteInvalid": "The pasted content is not a valid OTP code"
+  },
+  "common": {
+    "error": "An error occurred",
+    "invalidEmpty": "This field cannot be empty",
+    "cancel": "Cancel",
+    "and": "and"
+  },
+  "account": {
+    "title": "Settings",
+    "interface": "Interface",
+    "language": "Language",
+    "light": "Light",
+    "dark": "Dark",
+    "system": "System"
+  },
+  "tab": {
+    "home": "Home",
+    "automation": "Automation",
+    "service": "Service",
+    "store": "Store",
+    "account": "Profile"
+  },
+  "home": {
+    "title": "Home",
+    "greeting": {
+      "morning": "Good morning",
+      "noon": "Good afternoon",
+      "afternoon": "Good afternoon",
+      "evening": "Good evening"
+    },
+    "device": {
+      "empty": "No device has been paired yet",
+      "connect": "Connect now",
+      "error": "Failed to load devices",
+      "retry": "Retry",
+      "quality": "Water quality",
+      "statEfficiency": "Filtration rate",
+      "statFiltered": "Filtered water",
+      "statInput": "Input TDS",
+      "gridTitle": "Featured devices",
+      "more": "Add"
+    },
+    "products": {
+      "title": "Discover products",
+      "seeMore": "See more",
+      "empty": "No products available",
+      "error": "Failed to load products",
+      "retry": "Retry",
+      "badgeHot": "HOT",
+      "badgeNew": "New",
+      "addToCart": "Add to cart"
+    },
+    "addDevice": "Add device",
+    "simpleAdd": "Simple add"
+  },
+  "onboarding": {
+    "skip": "Skip",
+    "next": "Next",
+    "start": "Start",
+    "slide1": {
+      "title": "One app, the whole ecosystem",
+      "subtitle": "Connect and manage your Kangaroo devices in a single app."
+    },
+    "slide2": {
+      "title": "Control anytime, anywhere",
+      "subtitle": "Monitor status, control devices and get notifications right on your phone."
+    },
+    "slide3": {
+      "title": "Peace of mind with Kangaroo",
+      "subtitle": "Track devices, receive alerts and use official care services throughout the product lifecycle."
+    }
+  },
+  "snackbar": {
+    "info": "Information",
+    "success": "Success",
+    "warning": "Warning",
+    "fail": "Failed",
+    "error": "Failed"
+  },
+  "device": {
+    "nearby": {
+      "connect": "Connect",
+      "close": "Close"
+    },
+    "addTitle": "Add device",
+    "permission": {
+      "title": "Allow access to find devices",
+      "subtitle": "The app needs the permissions below to find and connect devices near you.",
+      "bluetooth": "Bluetooth",
+      "bluetoothDesc": "Find and pair nearby devices",
+      "wifi": "Wi-Fi",
+      "wifiDesc": "Find Wi-Fi networks for the device to join",
+      "location": "Location",
+      "locationDesc": "Required by the system to scan for nearby devices",
+      "granted": "Granted",
+      "denied": "Not granted",
+      "blocked": "Denied, turn it on in Settings",
+      "required": "All permissions above are required to continue adding a device.",
+      "guideTitle": "How to turn permissions back on",
+      "guide1": "Open your phone Settings",
+      "guide2": "Go to Apps, find this app, open Permissions",
+      "guide3": "Turn on Nearby devices (Bluetooth, Wi-Fi) and Location",
+      "guide4": "Come back to the app, permissions are re-checked automatically",
+      "grant": "Grant permissions",
+      "openSettings": "Open Settings"
+    },
+    "scan": {
+      "searching": "Searching for nearby devices",
+      "stopped": "Search stopped",
+      "timeLeft": "{{time}} left",
+      "found": "Devices found",
+      "empty": "No devices yet. Keep your phone close to the device.",
+      "notFound": "No devices found. Check the status light, then scan again.",
+      "rescan": "Scan again",
+      "signal": {
+        "strong": "Strong signal",
+        "medium": "Medium signal",
+        "weak": "Weak signal"
+      }
+    },
+    "tips": {
+      "title": "Get ready to pair",
+      "step1": "Plug the device in; the status light turns on and blinks.",
+      "step2": "If the light does not blink: unplug and replug 3 times, 5 seconds apart.",
+      "step3": "A fast-blinking light means the device is waiting to connect."
+    },
+    "manual": {
+      "title": "Add manually",
+      "subtitle": "Pick the device type if it was not found automatically",
+      "category": {
+        "water": "Water",
+        "air": "Air",
+        "electric": "Electrical"
+      }
+    },
+    "reset": {
+      "title": "Reset the device",
+      "subtitle": "Put the {{name}} into pairing mode",
+      "step1": "Plug the device in.",
+      "step2": "Unplug and replug 3 times, 5 seconds apart.",
+      "step3": "Wait until the status light blinks quickly.",
+      "confirm": "The status light is blinking quickly",
+      "continue": "Continue"
+    },
+    "wifi": {
+      "title": "Choose Wi-Fi",
+      "subtitle": "Most devices only support 2.4GHz Wi-Fi.",
+      "scanning": "Looking for Wi-Fi networks...",
+      "empty": "No Wi-Fi networks found",
+      "saved": "Saved",
+      "open": "Open network",
+      "password": "Wi-Fi password",
+      "remember": "Remember this Wi-Fi for the next device",
+      "continue": "Continue",
+      "refresh": "Search again"
+    },
+    "search": {
+      "title": "Find {{name}}"
+    },
+    "connect": {
+      "connecting": "Connecting the device",
+      "connectingHint": "Keep your phone near the device. This can take up to 1 minute.",
+      "successTitle": "Connected",
+      "successDesc": "{{name}} joined the {{ssid}} network.",
+      "failedTitle": "Connection failed",
+      "failedHint": "Check the Wi-Fi password and make sure the device is still in pairing mode.",
+      "retry": "Try again",
+      "changeWifi": "Choose another Wi-Fi",
+      "done": "Done"
+    },
+    "snapshot": {
+      "model": "Model",
+      "serial": "Serial no.",
+      "firmware": "Firmware",
+      "connection": "Connection",
+      "online": "Online",
+      "offline": "Offline",
+      "tds": "TDS in / out",
+      "hot": "Hot water",
+      "cold": "Cold water",
+      "eco": "Power saving",
+      "lowestFilter": "Lowest filter",
+      "onTemp": "On, {{temp}}°C",
+      "off": "Off"
+    },
+    "detail": {
+      "online": "{{location}}, connected",
+      "offline": "{{location}}, disconnected",
+      "deleted": "Device removed"
+    },
+    "viewer": {
+      "openDoor": "Open door",
+      "closeDoor": "Close door",
+      "pourHot": "Pour hot",
+      "pourCold": "Pour cold",
+      "stop": "Stop",
+      "rotate": "Rotate",
+      "loadFailed": "Could not load the 3D model. Check your connection.",
+      "retry": "Retry"
+    },
+    "quality": {
+      "title": "Water quality",
+      "in": "WATER IN",
+      "out": "WATER OUT",
+      "efficiency": "filter efficiency",
+      "verdict": {
+        "pure": "Pure",
+        "ok": "Up to standard",
+        "check": "Needs checking"
+      },
+      "note": "The filters remove {{removed}} ppm of dissolved solids; each dot is about 8 ppm."
+    },
+    "filter": {
+      "title": "Filters",
+      "due": "{{count}} filter needs attention",
+      "due_plural": "{{count}} filters need attention",
+      "hint": "The level in each filter shows its remaining life. Tap for details.",
+      "buy": "One-tap buy",
+      "replace": "Replace",
+      "remaining": "life remaining",
+      "alertReplace": "This filter is nearly worn out. Replace it now to keep the water up to standard.",
+      "alertWarning": "This filter is running low. Get a replacement ready.",
+      "status": {
+        "good": "Working well",
+        "warning": "Expiring soon",
+        "replace": "Replace now"
+      },
+      "statusLabel": "Status",
+      "life": "Rated life",
+      "lifeValue": "{{count}} month",
+      "lifeValue_plural": "{{count}} months",
+      "installed": "Installed on",
+      "replaceAt": "Replace by",
+      "sku": "Filter code",
+      "buyOne": "Buy this filter",
+      "replaceOne": "Replace filter",
+      "a11y": "Filter {{code}}, {{percent}}% left"
+    },
+    "eco": {
+      "title": "Power saving",
+      "on": "On",
+      "off": "Off",
+      "descOn": "Outside the bright window on the dial, heating and cooling pause.",
+      "descOff": "Turn on to heat and cool only during the hours you choose.",
+      "active": "active",
+      "runFrom": "Runs from",
+      "restFrom": "Rests from",
+      "noRest": "No rest",
+      "saving": "Estimated saving",
+      "savingValue": "{{kwh}} kWh/month",
+      "running": "Running right now",
+      "resting": "Resting right now"
+    },
+    "history": {
+      "title": "History and statistics",
+      "days": "{{count}} day",
+      "days_plural": "{{count}} days",
+      "metric": {
+        "tds": "Output TDS",
+        "water": "Water used",
+        "power": "Energy"
+      },
+      "average": "average",
+      "total": "total",
+      "hoursAgo": "24 hours ago",
+      "daysAgo": "{{count}} day ago",
+      "daysAgo_plural": "{{count}} days ago",
+      "now": "Now"
+    },
+    "actions": {
+      "title": "Support",
+      "feedback": {
+        "title": "Feedback, report an issue",
+        "hint": "Device status is attached automatically"
+      },
+      "warranty": {
+        "title": "E-warranty",
+        "hint": "View the warranty card"
+      },
+      "maintenance": {
+        "title": "Book maintenance",
+        "hint": "A technician comes to your home"
+      },
+      "chat": {
+        "title": "Chat with support",
+        "hint": "Replies during business hours"
+      },
+      "call": {
+        "title": "Call the hotline",
+        "hint": "Free, 24/7"
+      }
+    },
+    "settings": {
+      "title": "Device settings",
+      "rename": "Rename",
+      "location": "Location",
+      "share": "Share device",
+      "shareMessage": "Join me in managing \"{{name}}\" on the Kangaroo app. Device code: {{serial}}",
+      "firmware": "Firmware version",
+      "firmwareLatest": "Firmware v{{version}} is the latest version",
+      "delete": "Remove device",
+      "deleteTitle": "Remove device?",
+      "deleteMessage": "{{name}} will be removed from your account. You can add it again later.",
+      "deleteConfirm": "Remove",
+      "cancel": "Cancel",
+      "renameTitle": "Rename device",
+      "locationTitle": "Device location",
+      "namePlaceholder": "Device name",
+      "locationPlaceholder": "Enter a location",
+      "renamed": "Device renamed",
+      "relocated": "Location updated",
+      "empty": "This field is required",
+      "back": "Back",
+      "save": "Save",
+      "locations": {
+        "kitchen": "Kitchen",
+        "living": "Living room",
+        "dining": "Dining room",
+        "office": "Office"
+      }
+    },
+    "feedback": {
+      "title": "Device feedback",
+      "sent": "Feedback sent. Support will contact you within 24 hours.",
+      "required": "Pick an issue or describe the problem",
+      "issuesTitle": "Common issues",
+      "detailTitle": "More details",
+      "detailPlaceholder": "e.g. hot tap runs lukewarm",
+      "levelTitle": "Severity",
+      "snapshotTitle": "Device status (auto-attached)",
+      "submit": "Send feedback",
+      "issues": {
+        "weakFlow": "Weak flow",
+        "odor": "Water smells odd",
+        "noHot": "No hot water",
+        "noCold": "No cold water",
+        "noisy": "Loud noise",
+        "leak": "Water leak",
+        "disconnected": "App disconnected"
+      },
+      "levels": {
+        "low": "Minor",
+        "medium": "Moderate",
+        "high": "Severe"
+      }
+    },
+    "warranty": {
+      "title": "E-warranty",
+      "valid": "Valid for {{count}} more day",
+      "valid_plural": "Valid for {{count}} more days",
+      "expired": "Warranty expired",
+      "purchased": "Purchased",
+      "expires": "Expires",
+      "covered": "Covered",
+      "excluded": "Not covered",
+      "coverage": {
+        "board": "Control board, cooling block, heating tank",
+        "defect": "Manufacturing defects",
+        "labor": "Technician labour and travel"
+      },
+      "exclusions": {
+        "filters": "Filters (consumables)",
+        "damage": "Damage from drops or unstable power"
+      },
+      "call": "Call warranty hotline"
+    },
+    "replace": {
+      "title": "Filter replacement",
+      "perks": {
+        "genuine": "Genuine filters with anti-counterfeit seal",
+        "technician": "A technician replaces filters and cleans the unit",
+        "reset": "Filter life counters reset in the app"
+      },
+      "pick": "Choose filters to replace",
+      "remaining": "{{percent}}% left",
+      "day": "Date",
+      "slot": "Time slot",
+      "summary": "{{count}} filter, free installation",
+      "summary_plural": "{{count}} filters, free installation",
+      "book": "Book",
+      "booked": "Booked {{count}} filter replacement, {{slot}} on {{date}}",
+      "booked_plural": "Booked {{count}} filter replacements, {{slot}} on {{date}}",
+      "weekday": {
+        "0": "Sun",
+        "1": "Mon",
+        "2": "Tue",
+        "3": "Wed",
+        "4": "Thu",
+        "5": "Fri",
+        "6": "Sat"
+      }
+    },
+    "waterMode": {
+      "title": "Water mode",
+      "back": "Back",
+      "on": "On",
+      "off": "Off",
+      "offStatus": "Off",
+      "offHint": "Tap the power button to turn on",
+      "dragHint": "Drag the scale or tap a number to adjust",
+      "togglePower": "Toggle {{channel}}",
+      "openChannel": "Open {{channel}}",
+      "openControl": "Open temperature control",
+      "bothOff": "Hot and cold are both off",
+      "eco": "Eco",
+      "hot": {
+        "title": "Hot water",
+        "warning": "Above 80°C can scald, take care when pouring for children."
+      },
+      "cold": {
+        "title": "Cold water",
+        "warning": "At 4°C or below the cooler runs constantly and uses more power."
+      },
+      "mood": {
+        "veryHot": "Very hot, for tea and coffee",
+        "hot": "Hot, for milk and quick cooking",
+        "warm": "Warm, easy to drink",
+        "mild": "Lukewarm, safe for little ones",
+        "icy": "Ice cold",
+        "chilled": "Chilled and refreshing",
+        "cool": "Cool, gentle on teeth"
+      }
+    },
+    "quick": {
+      "permissionTitle": "Allow access to scan",
+      "required": "Required",
+      "blockedHint": "Turn it back on in Settings",
+      "findTitle": "Tap your device",
+      "all": "All",
+      "connect": "Connect",
+      "linking": "Connecting",
+      "success": "Connected",
+      "failed": "Couldn't connect",
+      "save": "Save"
+    },
+    "simple": {
+      "back": "Back",
+      "title": "Add device",
+      "bluetooth": "Scan via Bluetooth",
+      "nearby": "Search for nearby devices",
+      "nearbyHint": "Keep the phone as close to the device as possible.",
+      "permission": "Permissions needed to scan",
+      "permissionHint": "Turn on the switch to grant Bluetooth, Wi-Fi and location.",
+      "available": "Available devices",
+      "off": "Turn on scanning to see nearby devices",
+      "manual": "Add manually",
+      "guideTitle": "Connect device",
+      "blinkNote": "If the light is blinking fast, you can connect right away.",
+      "stepsIntro": "Otherwise, follow these steps:",
+      "step1": "Power on",
+      "step2": "Turn off – on – off – on",
+      "step3": "Light blinks fast",
+      "connect": "Connect",
+      "networks": "Available networks",
+      "secured": "Password protected",
+      "finding": "Looking for {{name}}",
+      "pairing": "Waiting to be paired",
+      "pairingHint": "Keep the app open until the device is paired.",
+      "success": "{{name}} added!",
+      "successHint": "The device joined {{ssid}}.",
+      "again": "Add another device"
+    }
+  }
+}

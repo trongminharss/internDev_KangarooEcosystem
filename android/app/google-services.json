@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "244589900324",
+    "project_id": "reactcore-21059",
+    "storage_bucket": "reactcore-21059.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:244589900324:android:7d09518fbc3f516f069eb1",
+        "android_client_info": {
+          "package_name": "com.reactcore"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyANmxWF3bOdK8lQXqTlTx1pM2IA5wQFawk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

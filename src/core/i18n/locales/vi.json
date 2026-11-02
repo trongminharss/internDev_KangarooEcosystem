@@ -1,0 +1,483 @@
+{
+  "intro": {
+    "title": "Màn hình giới thiệu",
+    "text": {
+      "introText": "Đây là nội dung giới thiệu",
+      "login": "Đăng nhập",
+      "signup": "Đăng ký"
+    }
+  },
+  "auth": {
+    "phoneTitle": "Nhập số điện thoại của bạn",
+    "enterPhone": "Nhập số điện thoại",
+    "invalidPhone": "Số điện thoại không hợp lệ",
+    "agreePrefix": "Tôi đồng ý với",
+    "termsOfUse": "Điều khoản sử dụng",
+    "legalDeclaration": "Tuyên bố pháp lý",
+    "privacyPolicy": "Chính sách bảo mật",
+    "continue": "Tiếp tục",
+    "termsTitle": "Điều khoản sử dụng",
+    "termsContent": "Nội dung điều khoản sử dụng đang được cập nhật. Đây là nội dung placeholder để minh họa layout của bottom sheet điều khoản.",
+    "agree": "Đồng ý",
+    "otpTitle": "Nhập mã Xác thực",
+    "otpSentTo": "Đã gửi tới",
+    "resendAfter": "Gửi lại sau {{seconds}}s",
+    "resend": "Gửi lại mã",
+    "otpPasteInvalid": "Nội dung dán không phải mã OTP hợp lệ"
+  },
+  "common": {
+    "error": "Đã có lỗi xảy ra",
+    "invalidEmpty": "Không được để trống thông tin",
+    "cancel": "Huỷ bỏ",
+    "and": "và"
+  },
+  "account": {
+    "title": "Cài đặt",
+    "interface": "Giao diện",
+    "language": "Ngôn ngữ",
+    "light": "Sáng",
+    "dark": "Tối",
+    "system": "Theo hệ thống"
+  },
+  "tab": {
+    "home": "Trang chủ",
+    "automation": "Tự động",
+    "service": "Dịch vụ",
+    "store": "Cửa hàng",
+    "account": "Cá nhân"
+  },
+  "home": {
+    "title": "Trang chủ",
+    "greeting": {
+      "morning": "Chào buổi sáng",
+      "noon": "Chào buổi trưa",
+      "afternoon": "Chào buổi chiều",
+      "evening": "Chào buổi tối"
+    },
+    "device": {
+      "empty": "Chưa có thiết bị nào được ghép nối",
+      "connect": "Kết nối ngay",
+      "error": "Không tải được thiết bị",
+      "retry": "Thử lại",
+      "quality": "Chất lượng nước",
+      "statEfficiency": "Hiệu suất lọc",
+      "statFiltered": "Nước lọc",
+      "statInput": "Nguồn vào",
+      "gridTitle": "Thiết bị nổi bật",
+      "more": "Thêm"
+    },
+    "products": {
+      "title": "Khám phá sản phẩm",
+      "seeMore": "Xem thêm",
+      "empty": "Chưa có sản phẩm",
+      "error": "Không tải được sản phẩm",
+      "retry": "Thử lại",
+      "badgeHot": "HOT",
+      "badgeNew": "Mới",
+      "addToCart": "Thêm vào giỏ"
+    },
+    "addDevice": "Thêm thiết bị",
+    "simpleAdd": "Thêm đơn giản"
+  },
+  "onboarding": {
+    "skip": "Bỏ qua",
+    "next": "Tiếp",
+    "start": "Bắt đầu",
+    "slide1": {
+      "title": "Một ứng dụng, trọn hệ sinh thái",
+      "subtitle": "Kết nối và quản lý các thiết bị Kangaroo trong cùng một ứng dụng."
+    },
+    "slide2": {
+      "title": "Điều khiển mọi lúc, mọi nơi",
+      "subtitle": "Theo dõi trạng thái, điều khiển thiết bị và nhận thông báo ngay trên điện thoại."
+    },
+    "slide3": {
+      "title": "An tâm cùng Kangaroo",
+      "subtitle": "Theo dõi thiết bị, nhận cảnh báo và sử dụng dịch vụ chăm sóc chính hãng trong suốt vòng đời sản phẩm."
+    }
+  },
+  "snackbar": {
+    "info": "Thông tin",
+    "success": "Thành công",
+    "warning": "Cảnh báo",
+    "fail": "Thất bại",
+    "error": "Thất bại"
+  },
+  "device": {
+    "nearby": {
+      "connect": "Kết nối",
+      "close": "Đóng"
+    },
+    "addTitle": "Thêm thiết bị",
+    "permission": {
+      "title": "Cho phép truy cập để tìm thiết bị",
+      "subtitle": "Ứng dụng cần các quyền dưới đây để tìm và kết nối thiết bị ở gần bạn.",
+      "bluetooth": "Bluetooth",
+      "bluetoothDesc": "Tìm và ghép nối thiết bị ở gần",
+      "wifi": "Wi-Fi",
+      "wifiDesc": "Tìm mạng Wi-Fi để thiết bị kết nối",
+      "location": "Vị trí",
+      "locationDesc": "Hệ điều hành yêu cầu khi quét thiết bị ở gần",
+      "granted": "Đã cấp quyền",
+      "denied": "Chưa cấp quyền",
+      "blocked": "Đã bị từ chối, bật lại trong Cài đặt",
+      "required": "Bạn cần cấp đủ các quyền trên mới có thể tiếp tục thêm thiết bị.",
+      "guideTitle": "Cách bật lại quyền",
+      "guide1": "Mở Cài đặt của điện thoại",
+      "guide2": "Chọn Ứng dụng, tìm ứng dụng này, chọn Quyền",
+      "guide3": "Bật Thiết bị ở gần (Bluetooth, Wi-Fi) và Vị trí",
+      "guide4": "Quay lại ứng dụng, quyền sẽ được kiểm tra tự động",
+      "grant": "Cấp quyền",
+      "openSettings": "Mở Cài đặt"
+    },
+    "scan": {
+      "searching": "Đang tìm thiết bị ở gần",
+      "stopped": "Đã dừng tìm kiếm",
+      "timeLeft": "Còn {{time}}",
+      "found": "Thiết bị tìm thấy",
+      "empty": "Chưa thấy thiết bị nào. Hãy giữ điện thoại gần thiết bị.",
+      "notFound": "Không tìm thấy thiết bị. Kiểm tra đèn trạng thái rồi quét lại.",
+      "rescan": "Quét lại",
+      "signal": {
+        "strong": "Tín hiệu mạnh",
+        "medium": "Tín hiệu trung bình",
+        "weak": "Tín hiệu yếu"
+      }
+    },
+    "tips": {
+      "title": "Chuẩn bị ghép nối",
+      "step1": "Cắm nguồn thiết bị, đèn trạng thái sáng và nhấp nháy.",
+      "step2": "Nếu đèn không nhấp nháy: rút nguồn rồi cắm lại 3 lần, mỗi lần cách nhau 5 giây.",
+      "step3": "Đèn nhấp nháy nhanh nghĩa là thiết bị đang chờ kết nối."
+    },
+    "manual": {
+      "title": "Thêm thủ công",
+      "subtitle": "Chọn loại thiết bị nếu không tìm thấy tự động",
+      "category": {
+        "water": "Lọc nước",
+        "air": "Không khí",
+        "electric": "Thiết bị điện"
+      }
+    },
+    "reset": {
+      "title": "Đặt lại thiết bị",
+      "subtitle": "Đưa {{name}} về chế độ chờ kết nối",
+      "step1": "Cắm nguồn thiết bị.",
+      "step2": "Rút nguồn rồi cắm lại 3 lần, mỗi lần cách nhau 5 giây.",
+      "step3": "Chờ đến khi đèn trạng thái nhấp nháy nhanh.",
+      "confirm": "Đèn trạng thái đang nhấp nháy nhanh",
+      "continue": "Tiếp tục"
+    },
+    "wifi": {
+      "title": "Chọn Wi-Fi",
+      "subtitle": "Hầu hết thiết bị chỉ hỗ trợ Wi-Fi 2.4GHz.",
+      "scanning": "Đang tìm mạng Wi-Fi...",
+      "empty": "Không tìm thấy mạng Wi-Fi nào",
+      "saved": "Đã lưu",
+      "open": "Mạng mở",
+      "password": "Mật khẩu Wi-Fi",
+      "remember": "Lưu Wi-Fi này cho lần thêm thiết bị sau",
+      "continue": "Tiếp tục",
+      "refresh": "Tìm lại"
+    },
+    "search": {
+      "title": "Tìm {{name}}"
+    },
+    "connect": {
+      "connecting": "Đang kết nối thiết bị",
+      "connectingHint": "Giữ điện thoại ở gần thiết bị. Quá trình có thể mất đến 1 phút.",
+      "successTitle": "Kết nối thành công",
+      "successDesc": "{{name}} đã kết nối vào mạng {{ssid}}.",
+      "failedTitle": "Kết nối thất bại",
+      "failedHint": "Kiểm tra mật khẩu Wi-Fi và đảm bảo thiết bị vẫn ở chế độ chờ kết nối.",
+      "retry": "Thử lại",
+      "changeWifi": "Chọn Wi-Fi khác",
+      "done": "Hoàn tất"
+    },
+    "snapshot": {
+      "model": "Model",
+      "serial": "Số seri",
+      "firmware": "Firmware",
+      "connection": "Kết nối",
+      "online": "Trực tuyến",
+      "offline": "Ngoại tuyến",
+      "tds": "TDS vào / ra",
+      "hot": "Nước nóng",
+      "cold": "Nước lạnh",
+      "eco": "Tiết kiệm điện",
+      "lowestFilter": "Lõi thấp nhất",
+      "onTemp": "Bật, {{temp}}°C",
+      "off": "Tắt"
+    },
+    "detail": {
+      "online": "{{location}}, đang kết nối",
+      "offline": "{{location}}, mất kết nối",
+      "deleted": "Đã xoá thiết bị"
+    },
+    "viewer": {
+      "openDoor": "Mở cửa",
+      "closeDoor": "Đóng cửa",
+      "pourHot": "Lấy nóng",
+      "pourCold": "Lấy lạnh",
+      "stop": "Dừng",
+      "rotate": "Xoay",
+      "loadFailed": "Không tải được mô hình 3D. Kiểm tra kết nối mạng.",
+      "retry": "Thử lại"
+    },
+    "quality": {
+      "title": "Chất lượng nước",
+      "in": "NƯỚC VÀO",
+      "out": "NƯỚC RA",
+      "efficiency": "hiệu suất lọc",
+      "verdict": {
+        "pure": "Tinh khiết",
+        "ok": "Đạt chuẩn",
+        "check": "Cần kiểm tra"
+      },
+      "note": "Lõi lọc giữ lại {{removed}} ppm chất rắn hoà tan, mỗi chấm là khoảng 8 ppm."
+    },
+    "filter": {
+      "title": "Lõi lọc",
+      "due": "{{count}} lõi cần chú ý",
+      "hint": "Mực nước trong mỗi lõi là tuổi thọ còn lại. Chạm để xem chi tiết.",
+      "buy": "Mua lõi 1 chạm",
+      "replace": "Thay chính hãng",
+      "remaining": "tuổi thọ còn lại",
+      "alertReplace": "Lõi đã gần hết tuổi thọ. Thay ngay để nước đầu ra luôn đạt chuẩn.",
+      "alertWarning": "Lõi sắp hết tuổi thọ. Nên chuẩn bị lõi thay thế.",
+      "status": {
+        "good": "Hoạt động tốt",
+        "warning": "Sắp hết hạn",
+        "replace": "Cần thay ngay"
+      },
+      "statusLabel": "Trạng thái",
+      "life": "Tuổi thọ định mức",
+      "lifeValue": "{{count}} tháng",
+      "installed": "Ngày lắp",
+      "replaceAt": "Thời điểm thay",
+      "sku": "Mã lõi",
+      "buyOne": "Mua lõi này",
+      "replaceOne": "Thay lõi",
+      "a11y": "Lõi {{code}}, còn {{percent}}%"
+    },
+    "eco": {
+      "title": "Tiết kiệm điện",
+      "on": "Đang bật",
+      "off": "Đang tắt",
+      "descOn": "Ngoài khung giờ sáng trên đồng hồ, máy ngừng đun nóng và làm lạnh.",
+      "descOff": "Bật để máy chỉ đun nóng, làm lạnh trong khung giờ bạn chọn.",
+      "active": "hoạt động",
+      "runFrom": "Chạy từ",
+      "restFrom": "Nghỉ từ",
+      "noRest": "Không nghỉ",
+      "saving": "Ước tính tiết kiệm",
+      "savingValue": "{{kwh}} kWh/tháng",
+      "running": "Bây giờ máy đang chạy",
+      "resting": "Bây giờ máy đang nghỉ"
+    },
+    "history": {
+      "title": "Lịch sử và thống kê",
+      "days": "{{count}} ngày",
+      "metric": {
+        "tds": "TDS nước ra",
+        "water": "Nước tiêu thụ",
+        "power": "Điện năng"
+      },
+      "average": "trung bình",
+      "total": "tổng cộng",
+      "hoursAgo": "24 giờ trước",
+      "daysAgo": "{{count}} ngày trước",
+      "now": "Hiện tại"
+    },
+    "actions": {
+      "title": "Hỗ trợ",
+      "feedback": {
+        "title": "Phản hồi, báo lỗi",
+        "hint": "Gửi kèm trạng thái máy tự động"
+      },
+      "warranty": {
+        "title": "Bảo hành điện tử",
+        "hint": "Xem thẻ bảo hành của máy"
+      },
+      "maintenance": {
+        "title": "Đặt lịch bảo trì",
+        "hint": "Kỹ thuật viên đến tận nhà"
+      },
+      "chat": {
+        "title": "Chat với CSKH",
+        "hint": "Phản hồi trong giờ hành chính"
+      },
+      "call": {
+        "title": "Gọi tổng đài",
+        "hint": "Miễn phí, 24/7"
+      }
+    },
+    "settings": {
+      "title": "Cài đặt thiết bị",
+      "rename": "Đổi tên",
+      "location": "Vị trí",
+      "share": "Chia sẻ thiết bị",
+      "shareMessage": "Mời bạn cùng quản lý \"{{name}}\" trên ứng dụng Kangaroo. Mã thiết bị: {{serial}}",
+      "firmware": "Phiên bản firmware",
+      "firmwareLatest": "Firmware v{{version}} là phiên bản mới nhất",
+      "delete": "Xoá thiết bị",
+      "deleteTitle": "Xoá thiết bị?",
+      "deleteMessage": "{{name}} sẽ bị gỡ khỏi tài khoản. Bạn có thể thêm lại sau.",
+      "deleteConfirm": "Xoá",
+      "cancel": "Huỷ",
+      "renameTitle": "Đổi tên thiết bị",
+      "locationTitle": "Vị trí đặt máy",
+      "namePlaceholder": "Tên thiết bị",
+      "locationPlaceholder": "Nhập vị trí",
+      "renamed": "Đã đổi tên thiết bị",
+      "relocated": "Đã cập nhật vị trí",
+      "empty": "Không được để trống",
+      "back": "Quay lại",
+      "save": "Lưu",
+      "locations": {
+        "kitchen": "Phòng bếp",
+        "living": "Phòng khách",
+        "dining": "Phòng ăn",
+        "office": "Văn phòng"
+      }
+    },
+    "feedback": {
+      "title": "Phản hồi thiết bị",
+      "sent": "Đã gửi phản hồi. CSKH sẽ liên hệ trong 24 giờ.",
+      "required": "Chọn một vấn đề hoặc mô tả sự cố",
+      "issuesTitle": "Vấn đề thường gặp",
+      "detailTitle": "Mô tả thêm",
+      "detailPlaceholder": "Ví dụ: vòi nóng ra nước ấm từ sáng nay",
+      "levelTitle": "Mức độ",
+      "snapshotTitle": "Trạng thái máy (tự động gửi kèm)",
+      "submit": "Gửi phản hồi",
+      "issues": {
+        "weakFlow": "Nước chảy yếu",
+        "odor": "Nước có mùi lạ",
+        "noHot": "Không ra nước nóng",
+        "noCold": "Không ra nước lạnh",
+        "noisy": "Máy kêu to",
+        "leak": "Rò rỉ nước",
+        "disconnected": "Mất kết nối ứng dụng"
+      },
+      "levels": {
+        "low": "Nhẹ",
+        "medium": "Trung bình",
+        "high": "Nghiêm trọng"
+      }
+    },
+    "warranty": {
+      "title": "Bảo hành điện tử",
+      "valid": "Còn hiệu lực {{count}} ngày",
+      "expired": "Đã hết hạn bảo hành",
+      "purchased": "Ngày mua",
+      "expires": "Hết hạn",
+      "covered": "Được bảo hành",
+      "excluded": "Không áp dụng",
+      "coverage": {
+        "board": "Bo mạch điều khiển, block làm lạnh, bình đun",
+        "defect": "Lỗi kỹ thuật do nhà sản xuất",
+        "labor": "Công và phí đi lại của kỹ thuật viên"
+      },
+      "exclusions": {
+        "filters": "Lõi lọc (vật tư tiêu hao)",
+        "damage": "Hư hỏng do rơi vỡ, nguồn điện không ổn định"
+      },
+      "call": "Gọi tổng đài bảo hành"
+    },
+    "replace": {
+      "title": "Thay lõi chính hãng",
+      "perks": {
+        "genuine": "Lõi chính hãng có tem chống giả",
+        "technician": "Kỹ thuật viên thay và vệ sinh máy",
+        "reset": "Đặt lại bộ đếm tuổi thọ lõi trên app"
+      },
+      "pick": "Chọn lõi cần thay",
+      "remaining": "Còn {{percent}}%",
+      "day": "Ngày thay",
+      "slot": "Khung giờ",
+      "summary": "{{count}} lõi, miễn phí công thay",
+      "book": "Đặt lịch thay",
+      "booked": "Đã đặt lịch thay {{count}} lõi, {{slot}} ngày {{date}}",
+      "weekday": {
+        "0": "CN",
+        "1": "T2",
+        "2": "T3",
+        "3": "T4",
+        "4": "T5",
+        "5": "T6",
+        "6": "T7"
+      }
+    },
+    "waterMode": {
+      "title": "Chế độ nước",
+      "back": "Quay lại",
+      "on": "Bật",
+      "off": "Tắt",
+      "offStatus": "Đang tắt",
+      "offHint": "Chạm nút nguồn để bật",
+      "dragHint": "Kéo vạch hoặc chạm số để chỉnh",
+      "togglePower": "Bật tắt {{channel}}",
+      "openChannel": "Mở {{channel}}",
+      "openControl": "Mở điều chỉnh nhiệt độ",
+      "bothOff": "Nóng và lạnh đều tắt",
+      "eco": "Tiết kiệm",
+      "hot": {
+        "title": "Nước nóng",
+        "warning": "Trên 80°C dễ gây bỏng, cẩn thận khi lấy nước cho trẻ."
+      },
+      "cold": {
+        "title": "Nước lạnh",
+        "warning": "Từ 4°C trở xuống block lạnh chạy liên tục, tốn điện hơn."
+      },
+      "mood": {
+        "veryHot": "Rất nóng, hãm trà và cà phê",
+        "hot": "Nóng, pha sữa và nấu nhanh",
+        "warm": "Ấm nóng, dễ uống",
+        "mild": "Ấm nhẹ, an toàn cho trẻ nhỏ",
+        "icy": "Lạnh sâu, như nước đá",
+        "chilled": "Mát lạnh, giải nhiệt",
+        "cool": "Mát dịu, không buốt răng"
+      }
+    },
+    "quick": {
+      "permissionTitle": "Cấp quyền để quét",
+      "required": "Bắt buộc",
+      "blockedHint": "Bật lại trong Cài đặt",
+      "findTitle": "Chạm vào thiết bị",
+      "all": "Tất cả",
+      "connect": "Kết nối",
+      "linking": "Đang kết nối",
+      "success": "Đã kết nối",
+      "failed": "Chưa kết nối được",
+      "save": "Lưu"
+    },
+    "simple": {
+      "back": "Quay lại",
+      "title": "Thêm thiết bị",
+      "bluetooth": "Tìm qua Bluetooth",
+      "nearby": "Tìm thiết bị ở gần",
+      "nearbyHint": "Đặt điện thoại càng gần thiết bị càng tốt.",
+      "permission": "Cần quyền để tìm thiết bị",
+      "permissionHint": "Bật công tắc để cấp quyền Bluetooth, Wi-Fi và vị trí.",
+      "available": "Thiết bị khả dụng",
+      "off": "Bật tìm kiếm để thấy thiết bị ở gần",
+      "manual": "Thêm thủ công",
+      "guideTitle": "Kết nối thiết bị",
+      "blinkNote": "Nếu đèn đang nháy nhanh, bạn có thể kết nối ngay.",
+      "stepsIntro": "Nếu không, hãy làm theo các bước:",
+      "step1": "Cắm nguồn",
+      "step2": "Tắt – bật – tắt – bật",
+      "step3": "Đèn nháy nhanh",
+      "connect": "Kết nối",
+      "networks": "Mạng khả dụng",
+      "secured": "Có mật khẩu",
+      "finding": "Đang tìm {{name}}",
+      "pairing": "Đang chờ ghép nối",
+      "pairingHint": "Đừng đóng ứng dụng cho đến khi thiết bị ghép nối xong.",
+      "success": "Đã thêm {{name}}!",
+      "successHint": "Thiết bị đã kết nối vào mạng {{ssid}}.",
+      "again": "Thêm thiết bị khác"
+    }
+  }
+}
